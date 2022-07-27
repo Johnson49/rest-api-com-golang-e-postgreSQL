@@ -1,0 +1,42 @@
+[
+    {
+        "Id": "1",
+        "Titulo": "Harry Potter e a Pedra Filosofal",
+        "Autor": "Joanne Kathleen Rowling",
+        "Genero": " Ação e aventura",
+        "Descricao": "Quando virou o envelope, com a mão trêmula, Harry viu um lacre de cera púrpura com um brasão; um leão, uma águia, um texugo e uma cobra circulando uma grande letra 'H'. Harry Potter nunca havia ouvido falar de Hogwarts quando as cartas começaram a aparecer no capacho da Rua dos Alfeneiros, nº 4. Escritos a tinta verde-esmeralda em pergaminho amarelado com um lacre de cera púrpura, as cartas eram rapidamente confiscadas por seus pavorosos tio e tia. Então, no aniversário de onze anos de Harry, um gigante com olhos que luziam como besouros negros chamado Rúbeo Hagrid surge com notícias surpreendentes: Harry Potter é um bruxo e tem uma vaga na Escola de Magia e Bruxaria de Hogwarts. Uma incrível aventura está para começar!",
+        "Preco": 23.5
+    },
+    {
+        "Id": "2",
+        "Titulo": "Fundação",
+        "Autor": "Isaac Asimo",
+        "Genero": "Ficção Científica",
+        "Descricao": "O Império Galático possui 12 mil anos. E possui pujança, grandeza e estabilidade. Ao menos em sua fachada. Mas ele está em pleno declínio, lento e gradual. E, no final, culminará com uma regressão violenta da sociedade e a conseqüente destruição do conhecimento. Preocupados com isso, um grupo de cientistas traça um plano pela preservação do conhecimento adquirido.",
+        "Preco": 28.37
+    },
+    {
+        "Id": "3",
+        "Titulo": "Laranja mecânica",
+        "Autor": "Anthony Burgess",
+        "Genero": "Ficção científica",
+        "Descricao": "Narrada pelo protagonista, o adolescente Alex, esta brilhante e perturbadora história cria uma sociedade futurista em que a violência atinge grandes proporções e provoca uma resposta igualmente agressiva de um governo totalitário. Ao lado de 1984, de George Orwell, e Admirável Mundo Novo, de Aldous Huxley, Laranja Mecânica é um dos ícones literários da alienação pós-industrial que caracterizou o século 20. ",
+        "Preco": 62.39
+    },
+    {
+        "Id": "4",
+        "Titulo": "O clã dos magos (A trilogia do Mago Negro Livro 1)",
+        "Autor": "Trudi Canavan",
+        "Genero": " Sagas Familiares Literatura e Ficção, mitos, lendas, sagas e fantasia",
+        "Descricao": "Todos os anos, os magos de Imardin reúnem-se para purificar as ruas da cidade dos pedintes, criminosos e vagabundos. Mestres das disciplinas de magia, sabem que ninguém pode opor-se a eles. No entanto, seu escudo protetor não é tão impenetrável quanto acreditam. Enquanto a multidão é expurgada da cidade, uma jovem garota de rua, furiosa com o tratamento dispensado pelas autoridades a sua família e amigos, atira uma pedra ao escudo protetor, colocando nisso toda a raiva que sente. Para o espanto de todos que testemunham a ação, a pedra atravessa sem dificuldades a barreira e deixa um dos magos inconsciente. Trata-se de um ato inconcebível, e o maior medo da Clã de repente se concretiza: uma maga não treinada está à solta pelas ruas. Ela deve ser encontrada, e rápido, antes que seus poderes fiquem fora de controle e destruam a todos.",
+        "Preco": 64.9
+    },
+    {
+        "Id": "5",
+        "Titulo": "O Planeta dos Macacos",
+        "Autor": "Pierre Boulle",
+        "Genero": " Ficção Científica",
+        "Descricao": "Uma tripulação de cientistas desbrava o espaço e descobre uma terrível verdade: no mundo em que pousaram, os seres humanos não passam de bestas selvagens a serviço da espécie dominante: os macacos.",
+        "Preco": 30.2
+    }
+]
