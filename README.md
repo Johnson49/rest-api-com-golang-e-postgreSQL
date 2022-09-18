@@ -7,12 +7,12 @@ Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e
 
 ### Clone o projeto e instale as dependências
 
-`git clone`
+`git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL`
 
 ####  Instale as dependências
 
 ```go
-cd 
+cd rest-api-com-golang-e-postgreSQL
 go mod download
 
 ```
