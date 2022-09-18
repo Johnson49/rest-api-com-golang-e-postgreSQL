@@ -1,43 +1,44 @@
-# API REST 
-
-> Status do Projeto: :heavy_check_mark: Concluído.
+# REST API com Golang e PostgreSQL
 
 
-## Informações gerais
-API de livros que usa um arquivo json como banco de dados.
+Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e [Gorilla mux](https://github.com/gorilla/mux). È baseado em um banco de dados [PostgreSQL](https://www.postgresql.org/).
 
+## Começando
 
-## Tecnologias 
-> O projeto é criado com:
+### Clone o projeto e instale as dependências
 
-* Go
-* gorilla/mux
+`git clone`
 
-
-## Setup: 
-> Para rodar este projeto, clone localmente e depois instale as dependências.
+####  Instale as dependências
 
 ```go
-$ git clone https://github.com/Johnson49/api-rest-simples
-$ cd api-rest-simples
-$ go get -u github.com/gorilla/mux
-$ go run main.go
-```  
+cd 
+go mod download
+
+```
+
+## Criando o Banco de dados
+
+> ⚠️ Antes de prosseguir, confirme se possui o postgresSQL instalado na máquina.
+
+1. Vá até a pasta `sql` e execute a `query` já pronta.
+
+2. Confirme se o banco de dados e a tabela foram criadas corretamente.
+
+##  Inicie o servidor 
+
+`go run src/main.go`
+
 
 ## EndPoints
-> As rotas são compostas pelo endereço base (localhost:port) mais o recurso que você deseja acessa.
 
-|Request|URL| Detalhes|
-|:-------:|:-----:|:------:|
-|GET | /biblioteca/ | Busca todos os livros|
-|GET |  /biblioteca/1 | Busca o livro de ID 1|
-|POST | /biblioteca/add | Adiciona um livro |
-| PUT | /biblioteca/1 | atualiza o livro de ID 1|
-| DELETE | /biblioteca/1 | remove o livro de ID 1|
+> As rotas são compostas pelo endereço base (http://localhost:8000) mais o recurso que você deseja acessa.
 
+|Método|Rota| Funcionalidade| Acesso |
+|:-------:|:-----:|:------:|:------:|
+|GET | /biblioteca/ | Consulta todos os livros existentes.| Público |
+|GET |  /biblioteca/livro?id= | Consulta um livro pelo seu id| Público |
+|POST | /biblioteca/registro | Registrar um novo livro. | Público |
+| PUT | /biblioteca/livro?id= | Atualiza os dados de um livro.| Público |
+| DELETE | /biblioteca/livro?id= |  Excluir um livro. | Público |
 
-## Licença
-
-The [MIT License]() (MIT)
-
-Copyright :copyright: 2022 - **API REST**
