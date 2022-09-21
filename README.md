@@ -13,7 +13,7 @@ Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e
 
 ```go
 cd rest-api-com-golang-e-postgreSQL
-go mod download
+go mod tidy
 
 ```
 
