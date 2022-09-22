@@ -1,4 +1,4 @@
-module package
+module github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 
 go 1.19
 

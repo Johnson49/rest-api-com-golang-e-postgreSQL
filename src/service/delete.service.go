@@ -1,6 +1,6 @@
 package service
 
-import "package/src/config"
+import "github.com/Johnson49/rest-api-com-golang-e-postgreSQL/src/config"
 
 func Delete(id string) int64 {
 	db, err := config.OpenConec()

@@ -3,7 +3,7 @@ package controller
 import (
 	"encoding/json"
 	"net/http"
-	"package/src/service"
+	"github.com/Johnson49/rest-api-com-golang-e-postgreSQL/src/service"
 )
 
 func CheckError(err error) {

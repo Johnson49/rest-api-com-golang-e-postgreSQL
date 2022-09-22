@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"package/src/controller"
+	"github.com/Johnson49/rest-api-com-golang-e-postgreSQL/src/controller"
 )
 
 func main() {

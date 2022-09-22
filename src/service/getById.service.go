@@ -1,8 +1,8 @@
 package service
 
 import (
-	"package/src/config"
-	"package/src/models"
+	"github.com/Johnson49/rest-api-com-golang-e-postgreSQL/src/config"
+	"github.com/Johnson49/rest-api-com-golang-e-postgreSQL/src/models"
 )
 
 func GetById(id string) models.LivroOut {
