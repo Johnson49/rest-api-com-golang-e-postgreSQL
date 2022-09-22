@@ -15,13 +15,6 @@ git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 cd rest-api-com-golang-e-postgreSQL
 ```
 
-####  Instale as dependências
-
-```go 
-go mod tidy
-```
-
-
 ## Criando o Banco de dados
 
 ### Localmente
