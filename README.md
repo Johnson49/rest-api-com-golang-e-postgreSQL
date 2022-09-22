@@ -1,29 +1,52 @@
 # REST API com Golang e PostgreSQL
 
-
 Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e [Gorilla mux](https://github.com/gorilla/mux). È baseado em um banco de dados [PostgreSQL](https://www.postgresql.org/).
 
 ## Começando
 
-### Clone o projeto e instale as dependências
+### Clone o projeto
 
-`git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL`
+```bash
+git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
+```
+
+```powershell
+cd rest-api-com-golang-e-postgreSQL
+```
 
 ####  Instale as dependências
 
-```go
-cd rest-api-com-golang-e-postgreSQL
+```go 
 go mod tidy
-
 ```
+
 
 ## Criando o Banco de dados
 
-> ⚠️ Antes de prosseguir, confirme se possui o postgresSQL instalado na máquina.
+### Localmente
 
-1. Vá até a pasta `sql` e execute a `query` já pronta.
+Caso já possua o postgresSQL instalado em sua máquina.
+
+1. Vá até a pasta `sql` e execute o `snippets`.
 
 2. Confirme se o banco de dados e a tabela foram criadas corretamente.
+
+### Docker
+
+Caso prefira utilizar o postgress pelo docker.
+
+#### 1. Criamos uma imagem com o arquivo Dockerfile que está localizado na raiz do projeto.
+
+`docker image build -t db_api-golang .`
+
+#### 2. Após o build, criasse um container com a imagem.
+
+`docker container run -d -p 5432:5432 --name api_postgres db_api-golang`
+
+#### 3. E finalmente, com este script que copiamos para dentro do container, irá criar uma nova role chamada `docker`, o banco de dados `dbgolang` e a tabela `livros`. Além disso, também irá registrar o primeiro livro como teste.
+
+`docker container exec -it api_postgres bash -c "sh /tmp/init.db.sh"`
+
 
 ##  Inicie o servidor 
 
