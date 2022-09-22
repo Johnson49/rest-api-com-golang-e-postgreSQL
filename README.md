@@ -10,6 +10,7 @@ Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e
 git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 ```
 
+#### Entre no diretório 
 ```powershell
 cd rest-api-com-golang-e-postgreSQL
 ```
@@ -25,7 +26,7 @@ go mod tidy
 
 ### Localmente
 
-Caso já possua o postgresSQL instalado em sua máquina.
+Caso já possua o postgres instalado em sua máquina.
 
 1. Vá até a pasta `sql` e execute o `snippets`.
 
@@ -33,7 +34,7 @@ Caso já possua o postgresSQL instalado em sua máquina.
 
 ### Docker
 
-Caso prefira utilizar o postgress pelo docker.
+Caso prefira utilizar o postgres pelo docker.
 
 #### 1. Criamos uma imagem com o arquivo Dockerfile que está localizado na raiz do projeto.
 
