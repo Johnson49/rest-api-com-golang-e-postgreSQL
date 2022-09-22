@@ -10,8 +10,8 @@ Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e
 git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 ```
 
-#### Entre no diretório 
-```powershell
+#### Adentre no diretório 
+```shell
 cd rest-api-com-golang-e-postgreSQL
 ```
 
@@ -38,21 +38,31 @@ Caso prefira utilizar o postgres pelo docker.
 
 #### 1. Criamos uma imagem com o arquivo Dockerfile que está localizado na raiz do projeto.
 
-`docker image build -t db_api-golang .`
+```shell
+docker image build -t db_api-golang .
+```
+
 
 #### 2. Após o build, criasse um container com a imagem.
 
-`docker container run -d -p 5432:5432 --name api_postgres db_api-golang`
+```
+docker container run -d -p 5432:5432 --name api_postgres db_api-golang
+```
+
 
 #### 3. E finalmente, com este script que copiamos para dentro do container, irá criar uma nova role chamada `docker`, o banco de dados `dbgolang` e a tabela `livros`. Além disso, também irá registrar o primeiro livro como teste.
 
-`docker container exec -it api_postgres bash -c "sh /tmp/init.db.sh"`
+```
+docker container exec -it api_postgres bash -c "sh /tmp/init.db.sh"
+```
 
 
 ##  Inicie o servidor 
 
-`go run src/main.go`
 
+```
+go run src/main.go
+```
 
 ## EndPoints
 
