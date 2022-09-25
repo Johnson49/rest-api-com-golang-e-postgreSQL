@@ -7,12 +7,12 @@ Esta API é construída usado o pacote [net/http](https://pkg.go.dev/net/http) e
 ### Clone o projeto
 
 ```bash
-git clone https://github.com/Johnson49/rest-api-com-golang-e-postgresSQL
+git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 ```
 
 #### Adentre no diretório 
 ```shell
-cd rest-api-com-golang-e-postgresSQL
+cd rest-api-com-golang-e-postgreSQL
 ```
 
 ## Criando o Banco de dados
