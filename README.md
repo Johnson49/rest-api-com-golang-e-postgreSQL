@@ -18,6 +18,7 @@ git clone https://github.com/Johnson49/rest-api-com-golang-e-postgreSQL
 cd rest-api-com-golang-e-postgreSQL
 ```
 
+
 ## Criando o Banco de dados
 
 ### Localmente
@@ -38,6 +39,11 @@ Caso prefira utilizar o postgres pelo docker.
 docker image build -t db_api-golang .
 ```
 
+#### Instale as dependências
+
+```go
+go mod tidy
+```
 
 #### 2. Após o build, criasse um container com a imagem.
 
